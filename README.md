@@ -64,7 +64,7 @@ Most common 2 words in DirectoryScorer(['tests/sample/dir1', 'tests/sample/sampl
  - the (3713 occurrences)
  - and (2352 occurrences)
 ```
-##Tests
+## Tests
 
 Run the tests using *test_all.py* in the *tests* directory.
 
@@ -77,7 +77,7 @@ Ran 14 tests in 0.558s
 OK
 ```
 
-##Classes
+## Classes
 There are three main classes: `FileScorer`, `DirectoryScorer` and `FileScoring`. 
 
 - `FileScorer`: holds the dictionary of words for a single file. Inherits from `Scorer`.
