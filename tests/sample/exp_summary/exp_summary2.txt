@@ -1,44 +1,44 @@
 Summarising from sample/dir2
-Most common 3 words in FileScorer(sample/dir2/ulysses.txt) are:
- - the (305 occurrences)
- - and (181 occurrences)
- - of (136 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2b/the_adventures_of_sherlock_holmes.txt) are:
- - the (381 occurrences)
- - I (231 occurrences)
- - of (228 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2b/psmith.txt) are:
- - the (380 occurrences)
- - of (251 occurrences)
- - a (249 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2b/the_adventures_of_tom_sawyer.txt) are:
- - the (193 occurrences)
- - and (185 occurrences)
- - a (129 occurrences)
-Most common 3 words in FileScorer(sample/dir2/war_and_peace.txt) are:
- - CHAPTER (366 occurrences)
- - the (64 occurrences)
- - and (57 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2a/moby_dick.txt) are:
- - the (350 occurrences)
- - of (225 occurrences)
- - and (170 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2a/dracula.txt) are:
- - the (559 occurrences)
- - and (358 occurrences)
- - I (309 occurrences)
 Most common 3 words in FileScorer(sample/dir2/dir2a/a_tale_of_two_cities.txt) are:
  - the (536 occurrences)
  - of (298 occurrences)
  - and (280 occurrences)
-Most common 3 words in FileScorer(sample/dir2/dir2a/dir2a1/the_romance_of_lust.txt) are:
- - and (396 occurrences)
- - the (377 occurrences)
- - to (285 occurrences)
 Most common 3 words in FileScorer(sample/dir2/dir2a/dir2a1/the_moon_princess.txt) are:
  - the (568 occurrences)
  - and (368 occurrences)
  - of (275 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2a/dir2a1/the_romance_of_lust.txt) are:
+ - and (396 occurrences)
+ - the (377 occurrences)
+ - to (285 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2a/dracula.txt) are:
+ - the (559 occurrences)
+ - and (358 occurrences)
+ - I (309 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2a/moby_dick.txt) are:
+ - the (350 occurrences)
+ - of (225 occurrences)
+ - and (170 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2b/psmith.txt) are:
+ - the (380 occurrences)
+ - of (251 occurrences)
+ - a (249 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2b/the_adventures_of_sherlock_holmes.txt) are:
+ - the (381 occurrences)
+ - I (231 occurrences)
+ - of (228 occurrences)
+Most common 3 words in FileScorer(sample/dir2/dir2b/the_adventures_of_tom_sawyer.txt) are:
+ - the (193 occurrences)
+ - and (185 occurrences)
+ - a (129 occurrences)
+Most common 3 words in FileScorer(sample/dir2/ulysses.txt) are:
+ - the (305 occurrences)
+ - and (181 occurrences)
+ - of (136 occurrences)
+Most common 3 words in FileScorer(sample/dir2/war_and_peace.txt) are:
+ - CHAPTER (366 occurrences)
+ - the (64 occurrences)
+ - and (57 occurrences)
 Most common 3 words in DirectoryScorer(sample/dir2) are:
  - the (3713 occurrences)
  - and (2349 occurrences)

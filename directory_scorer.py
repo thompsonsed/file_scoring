@@ -1,5 +1,6 @@
 import logging
 import pathlib as pl
+import operator
 
 from file_scorer import FileScorer
 from scorer import Scorer
@@ -81,6 +82,7 @@ class DirectoryScorer(Scorer):
         :return: None
         :rtype: None
         """
+        self.files = sorted(self.files, key=operator.attrgetter("input_file"))
         for file in self.files:
             file.read_file()
 
