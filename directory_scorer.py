@@ -58,7 +58,7 @@ class DirectoryScorer(Scorer):
         """
         if input_directory is not None:
             if not pl.Path.is_dir(input_directory) or not pl.Path.exists(input_directory):
-                raise IOError("Path at {} does not exist or is not a directory.".format(input_directory))
+                raise IOError(f"Path at {input_directory} does not exist or is not a directory.")
             self.input_directory = input_directory
 
     def read_directory(self, input_directory: pl.Path = None) -> None:
@@ -72,7 +72,7 @@ class DirectoryScorer(Scorer):
         """
         self.set_input_directory(input_directory)
         total = self.add_files_in_directory(self.input_directory)
-        self.logger.info("Parsing {} files...".format(total))
+        self.logger.info("Parsing {total} files...")
         self.parse()
 
     def parse(self) -> None:
@@ -152,7 +152,7 @@ class DirectoryScorer(Scorer):
         :return: the summary of each file and the sum of all files
         :rtype: str
         """
-        output = "Summarising from {}\n".format(self.input_directory)
+        output = "Summarising from {self.input_directory}\n"
         for file in self.files:
             output += file.summarise()
         if summarise_total:

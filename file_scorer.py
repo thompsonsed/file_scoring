@@ -55,9 +55,9 @@ class FileScorer(Scorer):
         """
         if input_file is not None:
             if not input_file.is_file() or not input_file.exists():
-                raise IOError("Path at {} does not exist or is not a file.".format(input_file))
+                raise IOError("Path at {input_file} does not exist or is not a file.")
             if not input_file.suffix == ".txt":
-                raise IOError("File is not a txt file at {}.".format(input_file))
+                raise IOError("File is not a txt file at {input_file}.")
             self.input_file = input_file
 
     def read_file(self, input_file: pl.Path = None) -> None:
@@ -75,8 +75,8 @@ class FileScorer(Scorer):
             with open(self.input_file, "r") as file:
                 lines = file.readlines()
         except UnicodeDecodeError as ue:
-            self.logger.info("{}".format(ue))
-            self.logger.info("Detected binary file at {}, converting.".format(self.input_file))
+            self.logger.info("{ue}")
+            self.logger.info("Detected binary file at {input_file}, converting.")
             with open(self.input_file, "rb") as file:
                 lines = [x.decode() for x in file.readlines()]
         for line in lines:
